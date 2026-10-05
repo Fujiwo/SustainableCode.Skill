@@ -42,9 +42,11 @@
 
 ## 公開状況
 
-この Skill はまだ公開していない。GitHub などで公開した後、このページに配布元へのリンク、インストール方法、ライセンスを追加する。
+この Skill は、GitHub で公開している。ライセンスは MIT で、詳細は[ライセンス](#ライセンス)の節と `LICENSE` ファイルを参照。
 
-公開前にローカルで試す場合は、`sustainable-code-jp` フォルダーを、使いたいプロジェクトの `.claude/skills/` にコピーする。`SKILL.md` は `references/` 配下のファイルを参照するため、フォルダーごとコピーすること。
+- 配布元: https://github.com/Fujiwo/SustainableCode.Skill
+
+使うには、リポジトリを `git clone` するか ZIP でダウンロードし、`sustainable-code-jp` フォルダーを、使いたいプロジェクトの `.claude/skills/` にコピーする。`SKILL.md` は `references/` 配下のファイルを参照するため、フォルダーごとコピーすること。
 
 ## 使い方
 
@@ -54,3 +56,20 @@
 配置先は対象プロジェクトのルートにある `.claude/skills/sustainable-code-jp/`。GitHub Copilot in VS Codeでは `.github/skills/sustainable-code-jp/` への配置も利用できる。配置後は、Skillの一覧や呼び出し・ファイル参照の履歴で、確認できる範囲を確かめる。製品が表示する方法は、利用する版の公式資料に従う。
 
 読み込みを確認しても、指示どおりのコードが生成される保証にはならない。要求との一致、変更差分、検証結果から採否を決める。導入と評価の説明は、書籍原稿の[付録A](../原稿/appendix-a.md)を参照。
+
+## 作者
+
+小島富治雄(Fujio Kojima): 日本のソフトウェア開発者
+* Microsoft MVP for Development Tools - Visual C#(2005年7月〜2014年12月)
+* Microsoft MVP for .NET(2015年1月〜2015年10月)
+* Microsoft MVP for Visual Studio and Development Technologies(2015年11月〜2018年6月)
+* Microsoft MVP for Developer Technologies(2018年11月〜2027年6月)
+* [MVPプロフィール](https://mvp.microsoft.com/en-US/mvp/profile/4185d172-3c9a-e411-93f2-9cb65495d3c4 "MVPプロフィール")
+* [ブログ](http://wp.shos.info "ブログ")
+* [Webサイト](http://www.shos.info "Webサイト")
+* [X](https://x.com/Fujiwo)
+* [Instagram](https://www.instagram.com/fujiwo/)
+
+## ライセンス
+
+このプロジェクトは MIT ライセンスのもとで公開している。詳細は [LICENSE](LICENSE) ファイルを参照。
